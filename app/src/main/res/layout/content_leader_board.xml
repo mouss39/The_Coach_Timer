@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.LeaderBoard"
+    tools:showIn="@layout/activity_leader_board">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:id="@+id/sortLayout"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_peakSpeedS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/peakSpeed"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:layout_toStartOf="@+id/peakSpeedButton"
+            android:focusable="true" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/peakSpeedButton"
+            android:src="@mipmap/icon_left_arrow"
+            android:layout_toStartOf="@+id/textView_numOfLaps"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/profilePicture" />
+
+
+        <TextView
+            android:id="@+id/textView_numOfLaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:clickable="true"
+            android:text="@string/numOfLaps"
+            android:textStyle="bold"
+            android:focusable="true"
+            android:layout_toStartOf="@+id/numberOfLapsButton" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/numberOfLapsButton"
+            android:layout_marginRight="3dp"
+            android:layout_alignParentRight="true"
+
+            android:src="@mipmap/icon_left_arrow"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/profilePicture" />
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_leaderBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sortLayout"
+        android:layout_marginTop="27dp"
+        tools:listitem="@layout/leader_board_list" />
+
+</RelativeLayout>

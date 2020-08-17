@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.InputScreen"
+    tools:showIn="@layout/activity_input">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerProfile"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+
+        <ImageView
+            android:id="@+id/playerImageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/profilePicture"
+            app:srcCompat="@mipmap/ic_visit" />
+
+        <TextView
+            android:id="@+id/playerNameInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:lineSpacingExtra="6sp"
+            android:text=""
+            android:textSize="20sp"
+
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/playerProfile"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:lineSpacingExtra="6sp"
+        android:text="@string/pleaseEnterDistance"
+        />
+    <EditText
+        android:id="@+id/Et_distance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border"
+        android:layout_weight="1"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor"
+        android:importantForAutofill="no" />
+    <Button
+        android:id="@+id/Btn_start_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#3AC7C1"
+        android:text="@string/start_session"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/color_btn" />
+
+</LinearLayout>
+</RelativeLayout>

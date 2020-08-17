@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">The Coach Timer</string>
+    <string name="title_activity_input">Distance Input</string>
+    <string name="title_activity_session">Training Session</string>
+    <string name="title_activity_leader_board">LeaderBoard</string>
+
+
+    <string name="pleaseEnterDistance">Please Enter Distance in Meters</string>
+
+    <string name="wantToEndSession">Are you sure you want to end the training Session</string>
+    <string name="theSessionWillBeSaved">The session will be stopped and saved</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="player_name">Player name</string>
+    <string name="firstName">First</string>
+    <string name="lastName">last</string>
+    <string name="speed">Speed</string>
+    <string name="number_of_laps">number of laps</string>
+    <string name="peakSpeed">Peak Speed</string>
+    <string name="numOfLaps">NumOfLaps</string>
+    <string name="please_choose_a_player">Please Choose a player!</string>
+    <string name="start_session">Start Session</string>
+    <string name="timer">Timer</string>
+    <string name="distance">Distance</string>
+    <string name="lap">Lap</string>
+    <string name="end">End</string>
+    <string name="_0">0</string>
+    <string name="number_Of_laps">Number of Laps</string>
+    <string name="_0_00">0.00</string>
+    <string name="average_time_lap">Average Time/Lap</string>
+    <string name="peak_speed_m_s">Peak Speed m/s</string>
+    <string name="average_speed_m_s">Average Speed m/s</string>
+    <string name="cadence_laps_minute">Cadence Laps/Minute</string>
+    <string name="lap_time">Lap time</string>
+    <string name="mm_ss_ms_lap_time">MM:SS:MS Lap Time</string>
+    <string name="speed_m_s">Speed m/s</string>
+    <string name="profilePicture">ProfilePicture</string>
+    <string name="leaderBoard">LeaderBoard</string>
+    <string name="start">Start</string>
+    <string name="export">export</string>
+</resources>

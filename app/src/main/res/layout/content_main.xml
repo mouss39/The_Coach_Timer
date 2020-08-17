@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/color_titles"
+            android:id="@+id/textViewChoosePlayer"
+            android:textStyle="bold"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/please_choose_a_player"
+            android:layout_marginStart="3dp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_view_player_list"
+            android:layout_below="@+id/textViewChoosePlayer"
+            android:divider="@android:color/transparent"
+            tools:listitem="@layout/player_list_view"
+            />
+
+
+</RelativeLayout>

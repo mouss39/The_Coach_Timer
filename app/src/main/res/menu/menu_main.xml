@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.thecoachtimer.MainActivity">
+    <item
+        android:id="@+id/leaderBoard_btn"
+        android:icon="?attr/actionModePasteDrawable"
+        android:orderInCategory="100"
+        android:title="@string/leaderBoard"
+        app:showAsAction="always" />
+
+</menu>
