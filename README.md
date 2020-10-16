@@ -1,6 +1,13 @@
 # The_Coach_Timer
 
 
+## Main libraries and things done in this project
+Retrofit for APIs
+Room Database
+CSV File read and write
+MVVM view models 
+Recycler View
+Unit Tests
 
 
 
