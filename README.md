@@ -54,16 +54,4 @@ If you are using your phone make sure that it is in developer mode.
 
 
 
-## A few notes describing the problems you encountered during development (if any). What would you do better, if you had more time or a full development team helping you?
 
-While developing the app I did not faced any problem that confused me. Of course I faced lots of bugs, but I can not count them as a problem, maybe setbacks but I managed to fix them.
-
-I had a challenge which is using Dagger in my application, but I started working on it after I have finished half of my application so I made different branches one of them with dagger and the other without.
-Am not going to send the application that includes dagger because it is not finished yet, am still working on it, and of course I didn't want to take more time on developing this app so I submitted the app without dagger.
-
-If I had a full development Team:
-
-1)  Finished Dagger.
-2) Better user Interface
-3) Better Database structure 
-4) Add more features
